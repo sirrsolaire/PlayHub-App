@@ -43,10 +43,10 @@ function RateSection() {
                 <div className="flex gap-3">
                   <button
                     className={
-                      "rounded-md bg-yellow-600 px-3 py-3 text-xs font-semibold"
+                      "rounded-md bg-yellow-600 px-3 py-3 text-xs font-bold"
                     }
                   >
-                    VIEW DETAILS
+                    + ADD
                   </button>
                   <button
                     className={

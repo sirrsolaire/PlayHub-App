@@ -13,6 +13,7 @@ export default {
       "area-bg": "url('/area_bg.jpg')",
       "btn-overlay": "url('/btn_overlay.png')",
       "rate-section-bg": "url('/game_manage_bg.jpg')",
+      "features-bg": "url('/features_bg.jpg')",
     },
 
     fontWeight: {
@@ -27,12 +28,16 @@ export default {
       boxShadow: {
         "4xl":
           "0px 3px 7px 0px rgba(128, 18, 40, 0.2),inset 0px 3px 7px 0px rgba(56, 17, 33, 0.4)",
+        divider: "0px 2px 0px 0px rgba(17, 8, 23, 0.004)",
       },
       colors: {
         "menu-nav": "#1c1121",
         "area-gray": "#c8c8c8",
         "area-sale-bg": "rgba(23, 13, 28, 0.929)",
         "rateSection-bg-color": "#1b1024",
+        "news-bg-color": "rgb(29, 18, 39)",
+        "news-divider-color": "rgb(39, 26, 48)",
+        "news-tag-color": "#3a3042",
       },
     },
   },
