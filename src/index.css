@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  li {
+    @apply py-3 text-base font-semibold text-white;
+  }
+}
