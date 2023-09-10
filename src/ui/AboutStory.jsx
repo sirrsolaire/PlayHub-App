@@ -8,8 +8,8 @@ function AboutStory() {
         Your Gateway to <span className="text-yellow-600">Gaming </span>
         Excellence
       </h3>
-      <img src="/title_bar.png" alt="Title Bar" className="mt-6" />
-      <div className="mt-10 flex flex-col gap-5">
+      {/* <img src="/title_bar.png" alt="Title Bar" className="mt-6" /> */}
+      <div className="mt-5 flex flex-col gap-5">
         <p className="text-sm font-medium text-area-gray">
           Welcome to the ultimate destination for gamers and enthusiasts alike –
           PlayHub. We've created a virtual paradise for all things gaming, where

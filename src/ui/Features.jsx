@@ -10,7 +10,8 @@ function Features() {
       <h2 className=" flex flex-col items-center  text-3xl font-bold text-white">
         Why Choose Us <span className="text-yellow-600">PlayHub</span>
       </h2>
-      <img src="/title_bar.png" alt="Title bar" className="mt-6" />
+      {/* <img src="/title_bar.png" alt="Title bar" className="mt-6" /> */}
+      {/* <Divider /> */}
       <div className="bg-news-bg-color mt-12 flex flex-col gap-5 rounded-2xl px-6 py-10">
         <div className="w-fit -skew-x-6 bg-yellow-600 px-4 py-0.5">
           <span className="w-full text-xs font-bold">NEWS</span>
@@ -34,6 +35,40 @@ function Features() {
         <NewsContent tag="ARPG" image="/news-3.avif" alt="Diablo 4 Banner">
           Diablo 4: People stop playing Diablo 4!
         </NewsContent>
+      </div>
+      <div className="flex flex-col gap-12 pt-20">
+        <div className="flex  w-full justify-start gap-4 ">
+          <img src="/fact_icon-1.png" alt="Games" className="h-fit w-fit" />
+          <div className="flex flex-col gap-2">
+            <span className="self-end text-3xl font-bold text-white">
+              500.000+
+            </span>
+            <p className="text-base font-semibold text-area-gray">Games</p>
+          </div>
+        </div>
+        <div className="flex w-full   justify-start gap-4 ">
+          <img src="/fact_icon-2.png" alt="Games" className="h-fit w-fit" />
+          <div className="flex flex-col gap-2">
+            <span className="text-3xl font-bold text-white">1000+</span>
+            <p className="text-base font-semibold text-area-gray">Daily User</p>
+          </div>
+        </div>
+        <div className="flex w-full   justify-start gap-4 ">
+          <img src="/fact_icon-3.png" alt="Games" className="h-fit w-fit" />
+          <div className="flex flex-col gap-2 self-start">
+            <span className="text-3xl font-bold text-white">50.000</span>
+            <p className="text-base font-semibold text-area-gray">Likes</p>
+          </div>
+        </div>
+        <div className="flex w-full  justify-start gap-4 ">
+          <img src="/fact_icon-4.png" alt="Games" className="h-fit w-fit" />
+          <div className="flex flex-col gap-2 self-start">
+            <span className="text-3xl font-bold text-white">12</span>
+            <p className="text-base font-semibold text-area-gray">
+              Amazing Feature
+            </p>
+          </div>
+        </div>
       </div>
     </section>
   );

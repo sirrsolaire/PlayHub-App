@@ -21,7 +21,7 @@ function RateSection() {
         <h2 className="flex flex-col items-center text-3xl font-bold text-white">
           Rate And Create <span className="text-yellow-600">Library</span>
         </h2>
-        <img src="/title_bar.png" alt="Title Bar" className="mt-3" />
+        {/* <img src="/title_bar.png" alt="Title Bar" className="mt-3" /> */}
       </div>
       <div className=" mt-14 border-t-4 border-yellow-600">
         <Slider {...settings}>
