@@ -1,9 +1,4 @@
-import {
-  faBars,
-  faBasketShopping,
-  faSearch,
-  faXmark,
-} from "@fortawesome/free-solid-svg-icons";
+import { faBars, faSearch, faXmark } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
 
@@ -15,8 +10,8 @@ function NavBar() {
   }
 
   return (
-    <div className="fixed z-50 w-full">
-      <nav className="flex w-full items-center justify-between bg-header-pattern bg-cover bg-center bg-no-repeat px-5 py-6 md:px-8">
+    <div className="fixed z-50 w-full lg:hidden">
+      <nav className="flex w-full items-center justify-between bg-header-pattern bg-cover bg-center bg-no-repeat px-5 py-6 md:px-8 ">
         <div className="flex items-center gap-2">
           <img src="/playhub-logo.png" alt="PlayHub Logo" />
           <h1 className="text-2xl font-bold text-gray-200 md:text-3xl">
@@ -33,7 +28,7 @@ function NavBar() {
           {!openMenuNav ? (
             <FontAwesomeIcon
               icon={faBars}
-              className={` text-4xl text-gray-200  transition-transform md:hidden ${
+              className={` text-4xl text-gray-200  transition-transform md:cursor-pointer lg:hidden ${
                 openMenuNav ? "rotate-0" : "rotate-180"
               }`}
               onClick={handleMenuNav}
@@ -41,7 +36,7 @@ function NavBar() {
           ) : (
             <FontAwesomeIcon
               icon={faXmark}
-              className={` text-4xl text-gray-200 transition-transform md:hidden ${
+              className={` text-4xl text-gray-200 transition-transform md:cursor-pointer lg:hidden ${
                 openMenuNav ? "rotate-0" : "rotate-180"
               }`}
               onClick={handleMenuNav}
@@ -50,7 +45,7 @@ function NavBar() {
         </div>
       </nav>
       <ul
-        className={`bg-menu-nav px-7 transition-all duration-700 md:hidden ${
+        className={`bg-menu-nav px-7 transition-all duration-700 lg:hidden ${
           openMenuNav ? "h-60 w-full" : "h-0 overflow-hidden"
         } `}
       >

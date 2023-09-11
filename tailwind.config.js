@@ -39,6 +39,7 @@ export default {
       },
       colors: {
         "menu-nav": "#1c1121",
+        "login-bg": "#181719",
         "area-gray": "#c8c8c8",
         "area-sale-bg": "rgba(23, 13, 28, 0.929)",
         "rateSection-bg-color": "#1b1024",
