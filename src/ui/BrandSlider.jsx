@@ -20,7 +20,7 @@ const settings = {
   initialSlide: 0,
   responsive: [
     {
-      breakpoint: 1024,
+      breakpoint: 600,
       settings: {
         slidesToShow: 2,
         slidesToScroll: 3,
@@ -31,8 +31,8 @@ const settings = {
     {
       breakpoint: 1500,
       settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2,
+        slidesToShow: 4,
+        slidesToScroll: 4,
         initialSlide: 2,
       },
     },
@@ -48,7 +48,7 @@ const settings = {
 
 function BrandSlider() {
   return (
-    <section className="bg-landing-slider w-full bg-cover bg-center py-6">
+    <section className="w-full bg-landing-slider bg-cover bg-center py-6 md:px-10">
       <Slider {...settings}>
         <FontAwesomeIcon
           icon={faSteam}

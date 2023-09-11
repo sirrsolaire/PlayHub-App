@@ -15,6 +15,7 @@ export default {
       "rate-section-bg": "url('/game_manage_bg.jpg')",
       "features-bg": "url('/features_bg.jpg')",
       "latest-news-bg": "url('/latest-news-bg.jpg')",
+      "footer-bg": "url('/footer_bg.jpg')",
     },
 
     fontWeight: {
@@ -34,6 +35,7 @@ export default {
           "0px 4px 5.58px 0.42px rgba(0, 0, 0, 0.13),inset 0px 1px 16px 0px rgba(228, 161, 1, 0.17)",
         article: "0px 5px 12.09px 0.91px rgba(0, 0, 0, 0.34)",
         articleShadow: "0px 7px 7.44px 0.56px rgba(18, 18, 18, 0.16)",
+        games: "0px 5px 12.09px 0.91px rgba(0, 0, 0, 0.35)",
       },
       colors: {
         "menu-nav": "#1c1121",
@@ -46,6 +48,11 @@ export default {
         "latest-bg": "rgb(32, 19, 43)",
         "article-bg": "rgb(27, 16, 36)",
         "article-text": "#9b9b9b",
+        "feedback-button": "#4b4550",
+        "footer-container": "rgb(25,14,34)",
+        "footer-input": "#24182d",
+        "footer-text": "#90949c",
+        "copyright-text": "#140a1c",
       },
     },
   },

@@ -13,12 +13,12 @@ function RateSection() {
     queryFn: fetchOnSaleGames,
   });
   return (
-    <section className="bg-rate-section-bg bg-cover bg-center bg-no-repeat px-4 py-[120px]">
+    <section className="bg-rate-section-bg bg-cover bg-center bg-no-repeat px-4 py-[120px] md:px-14">
       <div className="flex flex-col items-center gap-3">
-        <p className="text-sm font-bold text-area-gray">
+        <p className="text-sm font-bold text-area-gray md:text-base">
           CREATE YOUR OWN LIBRARY
         </p>
-        <h2 className="flex flex-col items-center text-3xl font-bold text-white">
+        <h2 className="flex flex-col items-center text-3xl font-bold text-white md:flex-row md:justify-center md:gap-2 md:text-4xl">
           Rate And Create <span className="text-yellow-600">Library</span>
         </h2>
         {/* <img src="/title_bar.png" alt="Title Bar" className="mt-3" /> */}

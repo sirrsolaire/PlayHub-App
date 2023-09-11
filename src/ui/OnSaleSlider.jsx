@@ -15,7 +15,7 @@ export const settings = {
   initialSlide: 0,
   responsive: [
     {
-      breakpoint: 1024,
+      breakpoint: 600,
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -42,7 +42,7 @@ export const settings = {
 };
 
 function OnSaleSlider() {
-  const { data, isLoading } = useQuery({
+  const { data } = useQuery({
     queryKey: ["onSaleItem"],
     queryFn: fetchOnSaleGames,
   });
