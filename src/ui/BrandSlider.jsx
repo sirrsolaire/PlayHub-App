@@ -1,7 +1,6 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { SiNintendoswitch } from "react-icons/si";
 import {
   faBattleNet,
   faPlaystation,
@@ -17,13 +16,13 @@ const settings = {
   speed: 500,
   slidesToShow: 1,
   slidesToScroll: 1,
-  initialSlide: 0,
+  initialSlide: 1,
   responsive: [
     {
       breakpoint: 600,
       settings: {
         slidesToShow: 2,
-        slidesToScroll: 3,
+        slidesToScroll: 2,
         infinite: true,
         dots: false,
       },
@@ -31,16 +30,29 @@ const settings = {
     {
       breakpoint: 1500,
       settings: {
-        slidesToShow: 4,
-        slidesToScroll: 4,
+        slidesToShow: 5,
+        slidesToScroll: 5,
+        infinite: true,
+
         initialSlide: 2,
       },
     },
     {
       breakpoint: 1800,
       settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
+        slidesToShow: 5,
+        infinite: true,
+
+        slidesToScroll: 5,
+      },
+    },
+    {
+      breakpoint: 2400,
+      settings: {
+        slidesToShow: 5,
+        infinite: true,
+
+        slidesToScroll: 5,
       },
     },
   ],
@@ -48,7 +60,7 @@ const settings = {
 
 function BrandSlider() {
   return (
-    <section className="w-full bg-landing-slider bg-cover bg-center py-6 md:px-10">
+    <section className="w-full bg-landing-slider bg-cover bg-center py-6 md:px-10 2xl:px-14">
       <Slider {...settings}>
         <FontAwesomeIcon
           icon={faSteam}

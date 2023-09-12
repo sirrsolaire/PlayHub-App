@@ -14,10 +14,10 @@ function OnSaleItem({ title, image, meta, platforms, ratingCount }) {
       <img
         src={image}
         alt="in sale"
-        className="h-96 w-full object-cover object-center"
+        className="object-cent h-96 w-full object-cover "
       />
 
-      <div className="shadow-games absolute bottom-0 z-30 flex w-full flex-col gap-1 bg-area-sale-bg px-4 py-3">
+      <div className="absolute bottom-0 z-30 flex w-full flex-col gap-1 bg-area-sale-bg px-4 py-3 shadow-games">
         <div className="flex items-center justify-between">
           <div className="flex gap-2">
             {platforms.includes("Xbox One") && (

@@ -19,8 +19,10 @@ function HomePage() {
       <AreaSection />
       <RateSection />
       <Features />
-      <LatestNew />
-      <CurstomerFeedback />
+      <section className=" bg-latest-news-bg xl:grid xl:grid-cols-2 xl:gap-5 xl:px-24 xl:py-40">
+        <LatestNew />
+        <CurstomerFeedback />
+      </section>
       <Footer />
     </div>
   );

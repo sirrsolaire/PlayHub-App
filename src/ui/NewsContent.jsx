@@ -2,12 +2,12 @@ function NewsContent({ tag, image, alt, children }) {
   return (
     <div className="flex justify-between">
       <div className="flex flex-col gap-4">
-        <div className="flex h-7 max-w-[70px] -skew-x-6 items-center bg-news-tag-color px-4 py-0.5 md:max-w-[90px]">
-          <span className="flex w-full items-center justify-center text-xs font-bold text-yellow-600 md:text-sm">
+        <div className="flex h-7 max-w-[70px] -skew-x-6 items-center bg-news-tag-color px-4 py-0.5 md:max-w-[90px] xl:max-w-[70px]">
+          <span className="flex w-full items-center justify-center text-xs font-bold text-yellow-600 md:text-sm xl:text-xs">
             {tag}
           </span>
         </div>
-        <p className="text-sm font-semibold text-white md:text-base">
+        <p className="text-sm font-semibold text-white md:text-base xl:text-sm">
           {children}
         </p>
       </div>

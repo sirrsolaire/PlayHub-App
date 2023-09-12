@@ -10,13 +10,13 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function NavBarDesktop() {
   return (
-    <>
-      <header className="hidden h-14 items-center justify-between bg-menu-nav px-5 lg:flex">
+    <nav className="fixed z-50 w-full ">
+      <header className=" hidden h-14 items-center justify-between bg-menu-nav px-5 lg:flex xl:px-10">
         <div className="flex items-center gap-2">
           <p className="text-sm font-semibold text-area-gray">
             Next Steam Sale
           </p>
-          <span className="w-fit  -skew-x-6 bg-yellow-600 px-3 py-16 text-lg font-bold">
+          <span className="w-fit  -skew-x-6 bg-yellow-600 px-3 py-3.5 text-lg font-bold">
             00
           </span>
           <span className="text-sm font-semibold text-area-gray">Days</span>
@@ -54,13 +54,13 @@ function NavBarDesktop() {
               icon={faUser}
               className=" bg-yellow-600 px-3.5 py-2.5 text-xs font-black text-black"
             />
-            <span className="bg-login-bg border-t-2 border-yellow-600 px-3 py-[7px] text-xs font-semibold text-white">
+            <span className="border-t-2 border-yellow-600 bg-login-bg px-3 py-[7px] text-xs font-semibold text-white">
               LOGIN
             </span>
           </div>
         </div>
       </header>
-      <nav className="fixed z-50 hidden w-full items-center justify-between bg-header-pattern bg-cover bg-center bg-no-repeat px-5 lg:flex">
+      <nav className=" fixed z-50 hidden w-full items-center justify-between bg-header-pattern bg-cover bg-center bg-no-repeat px-5 lg:flex xl:px-10">
         <div className="flex items-center gap-2">
           <img src="/playhub-logo.png" alt="PlayHub Logo" />
           <h1 className="text-2xl font-bold text-gray-200 md:text-3xl">
@@ -83,7 +83,7 @@ function NavBarDesktop() {
           </div>
         </div>
       </nav>
-    </>
+    </nav>
   );
 }
 

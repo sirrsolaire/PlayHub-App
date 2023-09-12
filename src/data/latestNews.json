@@ -25,5 +25,59 @@
     "date": "July 4, 2023",
     "comments": "50",
     "likes": "248"
+  },
+  {
+    "id": 4,
+    "title": "High Performance Server",
+    "content": "Game server also sometimes referred to as host server which source",
+    "image": "/blog_thumb03.jpg",
+    "date": "July 4, 2023",
+    "comments": "50",
+    "likes": "248"
+  },
+  {
+    "id": 5,
+    "title": "High Performance Server",
+    "content": "Game server also sometimes referred to as host server which source",
+    "image": "/blog_thumb03.jpg",
+    "date": "July 4, 2023",
+    "comments": "50",
+    "likes": "248"
+  },
+  {
+    "id": 6,
+    "title": "High Performance Server",
+    "content": "Game server also sometimes referred to as host server which source",
+    "image": "/blog_thumb03.jpg",
+    "date": "July 4, 2023",
+    "comments": "50",
+    "likes": "248"
+  },
+  {
+    "id": 7,
+    "title": "High Performance Server",
+    "content": "Game server also sometimes referred to as host server which source",
+    "image": "/blog_thumb03.jpg",
+    "date": "July 4, 2023",
+    "comments": "50",
+    "likes": "248"
+  },
+  {
+    "id": 8,
+    "title": "High Performance Server",
+    "content": "Game server also sometimes referred to as host server which source",
+    "image": "/blog_thumb03.jpg",
+    "date": "July 4, 2023",
+    "comments": "50",
+    "likes": "248"
+  },
+  {
+    "id": 9,
+    "title": "High Performance Server",
+    "content": "Game server also sometimes referred to as host server which source",
+    "image": "/blog_thumb03.jpg",
+    "date": "July 4, 2023",
+    "comments": "50",
+    "likes": "248"
   }
 ]

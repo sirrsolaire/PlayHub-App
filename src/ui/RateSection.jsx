@@ -13,7 +13,7 @@ function RateSection() {
     queryFn: fetchOnSaleGames,
   });
   return (
-    <section className="bg-rate-section-bg bg-cover bg-center bg-no-repeat px-4 py-[120px] md:px-14">
+    <section className="bg-rate-section-bg bg-cover bg-center bg-no-repeat px-4 py-[120px] md:px-14 2xl:px-24">
       <div className="flex flex-col items-center gap-3">
         <p className="text-sm font-bold text-area-gray md:text-base">
           CREATE YOUR OWN LIBRARY
@@ -21,12 +21,14 @@ function RateSection() {
         <h2 className="flex flex-col items-center text-3xl font-bold text-white md:flex-row md:justify-center md:gap-2 md:text-4xl">
           Rate And Create <span className="text-yellow-600">Library</span>
         </h2>
-        {/* <img src="/title_bar.png" alt="Title Bar" className="mt-3" /> */}
       </div>
-      <div className=" mt-14 border-t-4 border-yellow-600">
+      <div className=" mt-14 ">
         <Slider {...settings}>
           {data?.map((game) => (
-            <div key={game.id} className="relative">
+            <div
+              key={game.id}
+              className="relative border-t-4 border-yellow-600"
+            >
               <img
                 src={game.background_image}
                 alt=""

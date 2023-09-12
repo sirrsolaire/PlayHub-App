@@ -2,17 +2,20 @@ import { Rate } from "antd";
 import SectionTitles from "./SectionTitles";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleLeft, faAngleRight } from "@fortawesome/free-solid-svg-icons";
+import Button from "./Button";
+import PrevButton from "./PrevButton";
+import NextButton from "./NextButton";
 
 function CurstomerFeedback() {
   return (
-    <section className="bg-latest-news-bg bg-cover  bg-center bg-no-repeat px-4 pb-[120px] md:px-14">
+    <section className="bg-latest-news-bg  bg-cover bg-center bg-no-repeat px-4 pb-[120px] md:px-36  lg:px-36 xl:p-0">
       <SectionTitles firstWord="User" secondWord="Feedback" />
-      <div className="relative bg-article-bg px-3 py-10 shadow-article md:px-8">
+      <div className="relative bg-article-bg px-3 py-10 shadow-article md:px-8  xl:max-h-[600px] xl:min-h-[600px] xl:py-5">
         <h2 className="text-base font-bold text-white md:text-lg">
           Large Game Database
         </h2>
         <Rate defaultValue={5} className="mb-3 md:mb-6" />
-        <p className="mb-6 text-base italic text-area-gray md:mb-12 md:text-lg md:font-semibold">
+        <p className="mb-6 text-base italic text-area-gray md:mb-12 md:text-lg md:font-semibold xl:text-base">
           "I recently had the opportunity to explore the game database, and I
           must say, it's an incredible resource for gamers and enthusiasts
           alike. The comprehensive collection of games, spanning various
@@ -38,18 +41,18 @@ function CurstomerFeedback() {
           </div>
         </div>
         <div className="mb-5 flex gap-2">
-          <button>
+          <PrevButton>
             <FontAwesomeIcon
               icon={faAngleLeft}
-              className="text-feedback-button border-feedback-button border-[3px] px-3 py-2 text-xs"
+              className="border-[3px] border-feedback-button px-3 py-2 text-xs text-feedback-button hover:border-yellow-600 hover:text-yellow-600"
             />
-          </button>
-          <button>
+          </PrevButton>
+          <NextButton>
             <FontAwesomeIcon
               icon={faAngleRight}
-              className="text-feedback-button border-feedback-button border-[3px] px-3 py-2 text-xs"
+              className="border-[3px] border-feedback-button px-3 py-2 text-xs text-feedback-button hover:border-yellow-600 hover:text-yellow-600"
             />
-          </button>
+          </NextButton>
         </div>
         <img
           src="/quote.png"
